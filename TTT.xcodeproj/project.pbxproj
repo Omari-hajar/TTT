@@ -16,6 +16,8 @@
 		CC0DFB9D275E3F4B00DDA448 /* TTTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DFB9C275E3F4B00DDA448 /* TTTTests.swift */; };
 		CC0DFBA7275E3F4B00DDA448 /* TTTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DFBA6275E3F4B00DDA448 /* TTTUITests.swift */; };
 		CC0DFBA9275E3F4B00DDA448 /* TTTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DFBA8275E3F4B00DDA448 /* TTTUITestsLaunchTests.swift */; };
+		CC0DFBFA275E923800DDA448 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DFBF9275E923800DDA448 /* Game.swift */; };
+		CC0DFBFC275E930700DDA448 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DFBFB275E930700DDA448 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CC0DFBA2275E3F4B00DDA448 /* TTTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0DFBA6275E3F4B00DDA448 /* TTTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTUITests.swift; sourceTree = "<group>"; };
 		CC0DFBA8275E3F4B00DDA448 /* TTTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC0DFBF9275E923800DDA448 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		CC0DFBFB275E930700DDA448 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		CC0DFB84275E3F4900DDA448 /* TTT */ = {
 			isa = PBXGroup;
 			children = (
+				CC0DFBF8275E920600DDA448 /* model */,
 				CC0DFB85275E3F4900DDA448 /* AppDelegate.swift */,
 				CC0DFB87275E3F4900DDA448 /* SceneDelegate.swift */,
 				CC0DFB89275E3F4900DDA448 /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				CC0DFBA8275E3F4B00DDA448 /* TTTUITestsLaunchTests.swift */,
 			);
 			path = TTTUITests;
+			sourceTree = "<group>";
+		};
+		CC0DFBF8275E920600DDA448 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DFBF9275E923800DDA448 /* Game.swift */,
+				CC0DFBFB275E930700DDA448 /* Player.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +275,8 @@
 				CC0DFB8A275E3F4900DDA448 /* ViewController.swift in Sources */,
 				CC0DFB86275E3F4900DDA448 /* AppDelegate.swift in Sources */,
 				CC0DFB88275E3F4900DDA448 /* SceneDelegate.swift in Sources */,
+				CC0DFBFC275E930700DDA448 /* Player.swift in Sources */,
+				CC0DFBFA275E923800DDA448 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
