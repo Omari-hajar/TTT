@@ -45,10 +45,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        XPlayLabel.image = UIImage(named: "onX")
+        OPlayLabel.image = UIImage(named: "offO")
         imagesList = setImagesList()
        
-        setGame()
+        
     }
 
 
@@ -120,10 +122,8 @@ class ViewController: UIViewController {
     
     //set icons for who turn it is
     func setGame(){
-        
         XWinner.isHidden = true
         OWinner.isHidden = true
-        
         if game.currentPlayer == "X"{
             XPlayLabel.image = UIImage(named: "offX")
             OPlayLabel.image = UIImage(named: "onO")
